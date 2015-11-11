@@ -1,2 +1,4 @@
 *.o
+*.core
+ktrace.out
 fbar
