@@ -2,6 +2,7 @@
 #include <fcntl.h>
 #include <err.h>
 #include <stdio.h>
+#include <unistd.h>
 
 #include <sys/types.h>
 #include <sys/ioctl.h>
