@@ -1,0 +1,3 @@
+X11BASE=/usr/X11R6 ; export X11BASE
+gcc -std=c99 -fshort-wchar -Os -I${X11BASE}/include -I${X11BASE}/include/freetype2 -o fbar.o -c fbar.c
+gcc -L${X11BASE}/lib -lX11 -lX11-xcb -o fbar fbar.o
