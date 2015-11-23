@@ -69,7 +69,7 @@ getmixerdata(char * buf)
 			}
 		}
 	}
-
+	close(fd);
 }
 
 void
